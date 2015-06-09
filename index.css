@@ -1,0 +1,21 @@
+
+/**
+ * Webtrends logo.
+ */
+
+.logo[data-logo="Webtrends"] {
+  width: 0;
+}
+
+.logo[data-logo="Webtrends"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Webtrends"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Webtrends"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}

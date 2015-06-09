@@ -1,0 +1,19 @@
+{
+  "logo": "Webtrends",
+  "name": "webtrends",
+  "repo": "logo/webtrends",
+  "description": "The Webtrends logo.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "styles": [
+    "index.css"
+  ],
+  "images": [
+    "images/logo.svg",
+    "images/logo-black.svg",
+    "images/logo-white.svg"
+  ],
+  "dependencies": {
+    "logo/logo": "*"
+  }
+}
